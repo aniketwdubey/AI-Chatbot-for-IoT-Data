@@ -47,7 +47,9 @@ This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S
 
    Create 1st intent
 
-      <img width="1440" alt="Screenshot 2024-01-29 at 9 11 10 PM" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/d352e48f-f0ea-474b-89ef-e25f61d9a07e">
+      <img width="1440" alt="1 1" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/35cc1f32-0104-4101-9c8d-8d7b035c170b">
+      
+      <img width="1440" alt="1 2" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/8097dac7-ad71-44d7-bbac-a3cd686876ff">
 
       <img width="1440" alt="Screenshot 2024-01-29 at 9 12 45 PM" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/138e18be-d884-465f-a708-30732f2d79cb">
 
