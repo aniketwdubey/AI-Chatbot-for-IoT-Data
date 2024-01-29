@@ -1,7 +1,7 @@
 resource "aws_lambda_function" "terraform_lambda" {
   function_name = "EnergyConsumptionTerraform"
   filename      = "lambda_function.zip"
-  handler       = "index.handler"
+  handler       = "lambda_function.lambda_handler"
   role          = aws_iam_role.lambda_role.arn
   runtime       = "python3.12"
   depends_on    = [aws_iam_role_policy_attachment.attach_cloudwatch_logs_policy_to_iam_role, aws_iam_role_policy_attachment.attach_s3_policy_to_iam_role]
