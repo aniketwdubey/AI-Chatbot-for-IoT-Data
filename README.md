@@ -20,10 +20,6 @@ This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-## Getting Started
-
 1. **Terraform Setup**: Make sure you have Terraform installed. If not, follow the [official installation guide](https://learn.hashicorp.com/tutorials/terraform/install-cli).
 
 2. **AWS Credentials**: Configure your AWS credentials using `aws configure` if not done already.
@@ -33,13 +29,21 @@ These instructions will get you a copy of the project up and running on your loc
    git clone <repository-url>
    ```
 
-5. **Initialize Terraform**: Run `terraform init` in the project directory.
+5. **Initialize Terraform**: 
+   ```
+   terraform init
+   ```
 
-6. **Deploy Infrastructure**: Execute `terraform apply` to deploy the AWS resources.
+7. **Deploy Infrastructure**: to deploy the AWS resources.
+   ```
+   terraform apply
+   ```
 
-7. **Upload Data to S3**: Manually upload the CSV file (Energy Consumption Data.csv) to the S3 bucket created.
+9. **Upload Data to S3**: Manually upload the CSV file (Energy Consumption Data.csv) to the S3 bucket created.
 
-8. **Test the Chatbot**: Interact with the chatbot using the Lex console or a chatbot client integrated with Lex.
+10. **Create Intents**: Create intents using lex console.
+
+11. **Test the Chatbot**: Interact with the chatbot using the Lex console or a chatbot client integrated with Lex.
 
 ## AWS Resources
 
