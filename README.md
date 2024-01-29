@@ -8,15 +8,14 @@ This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S
 
 - * `bot.tf`: Defines the Lex V2 bot configuration using Terraform.
   
-- **lambda_function.zip**: Contains the Lambda function code for chatbot fulfillment.
+**Project Structure:**
 
-- **main.tf**: Main Terraform configuration file specifying the AWS resources, including the Lambda function.
-
-- **provider.tf**: Terraform provider configuration for AWS.
-
-- **S3bucket.tf**: Terraform configuration for the S3 bucket to store the IoT data CSV file.
-
-- **Energy Consumption Data.csv**: Sample CSV file containing IoT energy consumption data (to be manually uploaded to the S3 bucket).
+* `bot.tf`: Defines the Lex V2 bot configuration using Terraform.
+* `lambda_function.zip`: Contains the Python code for the Lambda function.
+* `main.tf`: Defines the main Terraform configuration for Lambda, IAM roles, and S3 bucket.
+* `provider.tf`: Configures the Terraform AWS provider.
+* `S3bucket.tf`: Defines the S3 bucket to store the energy consumption data CSV file.
+* `Energy Consumption Data.csv`: The CSV file containing the energy consumption data (to be uploaded manually).
 
 ## Getting Started
 
