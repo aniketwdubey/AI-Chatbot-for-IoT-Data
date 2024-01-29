@@ -42,8 +42,14 @@ This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S
    ```
 
 7. **Upload Data to S3**: Manually upload the CSV file (Energy Consumption Data.csv) to the S3 bucket created.
+   
+      <img width="662" alt="Screenshot 2024-01-30 at 2 38 12 AM" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/99386031-f73c-490d-a957-729b50c34e09">
 
-8. **Create Intents**: Create intents using lex console.
+      
+      <img width="1440" alt="Screenshot 2024-01-29 at 9 17 17 PM" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/65aee563-ea4f-43fe-a95a-da86b7fc1fe5">
+
+
+9. **Create Intents**: Create intents using lex console.
 
    □ Create 1st intent `GetCurrentUsagelntent`
 
