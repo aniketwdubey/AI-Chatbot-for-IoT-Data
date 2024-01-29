@@ -2,9 +2,6 @@
 
 This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S3 bucket. The infrastructure is defined using Terraform, and the project includes a Lambda function for chatbot fulfillment.
 
-![PHOTO-2024-01-22-00-15-26](https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/f8a9e3e0-4e04-410b-b44c-173a2cfd9970)
-![PHOTO-2024-01-22-00-15-26 2](https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/fd06fdef-d637-4c81-9cbd-1a06545f9815)
-![PHOTO-2024-01-23-12-59-44](https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/cff9293b-ed24-44e7-902a-8de8fa7fb84c)
 ![Lex V2](https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/34516f52-61cf-40b0-a1b6-0a19c74bb2b6)
 
 ## Key Features:
