@@ -29,14 +29,17 @@ These instructions will get you a copy of the project up and running on your loc
 2. **AWS Credentials**: Configure your AWS credentials using `aws configure` if not done already.
 
 3. **Clone the Repository**: `git clone <repository-url>`
+   ```
+git clone <repository-url>
+```
 
-4. **Initialize Terraform**: Run `terraform init` in the project directory.
+5. **Initialize Terraform**: Run `terraform init` in the project directory.
 
-5. **Deploy Infrastructure**: Execute `terraform apply` to deploy the AWS resources.
+6. **Deploy Infrastructure**: Execute `terraform apply` to deploy the AWS resources.
 
-6. **Upload Data to S3**: Manually upload the CSV file (Energy Consumption Data.csv) to the S3 bucket created.
+7. **Upload Data to S3**: Manually upload the CSV file (Energy Consumption Data.csv) to the S3 bucket created.
 
-7. **Test the Chatbot**: Interact with the chatbot using the Lex console or a chatbot client integrated with Lex.
+8. **Test the Chatbot**: Interact with the chatbot using the Lex console or a chatbot client integrated with Lex.
 
 ## AWS Resources
 
