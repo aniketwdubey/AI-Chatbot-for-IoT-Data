@@ -45,7 +45,7 @@ This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S
 
 8. **Create Intents**: Create intents using lex console.
 
-   Create 1st intent
+   ■ Create 1st intent
 
       <img width="1440" alt="1 1" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/35cc1f32-0104-4101-9c8d-8d7b035c170b">
       
