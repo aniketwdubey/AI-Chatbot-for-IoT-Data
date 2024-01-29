@@ -110,6 +110,9 @@ This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S
 
   ![Lex Chatbot Architecture](https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/1fbfe153-21e2-4ec6-b258-9ae303d1fdbb)
  
+## Conclusion
+
+The project lays the foundation for future enhancements, suggesting integration possibilities with Amazon Kinesis and AWS IoT Core for a more dynamic and real-time chatbot experience.
 
 ## License
 
