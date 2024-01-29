@@ -101,7 +101,7 @@ This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S
 
 - **Integration with Amazon Kinesis and AWS IoT Core**: In future iterations, consider incorporating Amazon Kinesis for real-time data streaming and AWS IoT Core for efficient IoT device communication. This can enhance the system by allowing direct ingestion of IoT data into S3, providing a more seamless and real-time chatbot experience.
 
-- ![Lex Chatbot Architecture](https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/1fbfe153-21e2-4ec6-b258-9ae303d1fdbb)
+  ![Lex Chatbot Architecture](https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/1fbfe153-21e2-4ec6-b258-9ae303d1fdbb)
  
 
 ## License
