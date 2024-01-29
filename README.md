@@ -45,7 +45,7 @@ This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S
 
 8. **Create Intents**: Create intents using lex console.
 
-   ■ Create 1st intent
+   □ Create 1st intent `GetCurrentUsagelntent`
 
       <img width="1440" alt="1 1" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/35cc1f32-0104-4101-9c8d-8d7b035c170b">
       
@@ -59,10 +59,32 @@ This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S
 
       <img width="1440" alt="Screenshot 2024-01-29 at 9 13 55 PM" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/259667d5-087b-4f54-aa49-1630ce02e513">
 
-   Create 2nd intent
 
+   □ Create 2nd intent `GetAverageUsage`
+
+      <img width="1440" alt="2 1" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/5729a9a1-1b9d-4391-841b-3dcb75345b45">
+
+      <img width="1440" alt="2 2" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/a9ed122f-3d77-4022-bb18-8ec5ccd3338e">
       
+      <img width="1440" alt="2 3" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/93b501be-e130-4127-8f1b-fe2254196067">
+
+      <img width="1440" alt="2 4" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/ef2a3ab8-4842-44ec-847c-6fdd901728fe">
+
+      <img width="1440" alt="2 5" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/279688f5-d984-4d29-abf9-451884acbf03">
+
+
+10. **Build the Chatbot**:
+
+      <img width="1440" alt="build" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/efd64165-4d1d-4799-ab0b-b57dbcd8d967">
+
+
 10. **Test the Chatbot**: Interact with the chatbot using the Lex console or a chatbot client integrated with Lex.
+
+      <img width="1440" alt="link" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/ee3f75dc-91ee-49e5-8fde-fb8ed5093246">
+
+      <img width="1440" alt="3 1" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/0500644d-11ae-4036-b9c3-92f0dd24bda6">
+
+      <img width="1440" alt="3 2" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/5bb90843-5db2-401c-842d-b40772bcb610">
 
 
 ## Notes
