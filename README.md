@@ -1,59 +1,87 @@
-# IotChatBot: Energy Consumption Chatbot with AWS Lex V2 and Lambda
+# Project Title
 
-This project demonstrates how to build an energy consumption chatbot using AWS Lex V2 and Lambda. Users can interact with the chatbot through text or voice to ask questions about their energy usage data stored in an S3 bucket.
+One Paragraph of project description goes here
 
-**Key Features:**
+## Getting Started
 
-* Leverages AWS Lex V2 for natural language understanding and conversation management.
-* Utilizes Lambda function to process user input and retrieve data from S3.
-* Provides dynamic responses based on information stored in the CSV file.
-* Offers a cost-effective and scalable solution for chatbot development.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-**Project Structure:**
+### Prerequisites
 
-* `bot.tf`: Defines the Lex V2 bot configuration using Terraform.
-* `lambda_function.zip`: Contains the Python code for the Lambda function.
-* `main.tf`: Defines the main Terraform configuration for Lambda, IAM roles, and S3 bucket.
-* `provider.tf`: Configures the Terraform AWS provider.
-* `S3bucket.tf`: Defines the S3 bucket to store the energy consumption data CSV file.
-* `Energy Consumption Data.csv`: The CSV file containing the energy consumption data (to be uploaded manually).
+What things you need to install the software and how to install them
 
-**Prerequisites:**
+```
+Give examples
+```
 
-* An AWS account with access to Lex V2, Lambda, S3, and IAM.
-* Python 3.6 or later.
-* Terraform version 0.12 or later.
+### Installing
 
-**Deployment:**
+A step by step series of examples that tell you how to get a development env running
 
-1. **Manual Configuration (AWS Console):**
-    * Create an S3 bucket and upload the `Energy Consumption Data.csv` file.
-    * Create an IAM role with necessary permissions for Lex V2, Lambda, and S3.
-    * Create a Lambda function and upload the `lambda_function.zip` file.
-    * Create an Lex V2 bot and define intents and fulfillment logic.
-    * Configure the chatbot to use the Lambda function for fulfillment.
-2. **Automated Configuration (Terraform):**
-    * Deploy the Terraform configuration (instructions not included in this README).
+Say what the step will be
 
-**Testing:**
+```
+Give the example
+```
 
-* Use the AWS Lex V2 console or API to test the chatbot with different inputs.
-* Verify that the chatbot returns accurate information from the S3 bucket.
+And repeat
 
-**Additional Notes:**
+```
+until finished
+```
 
-* This is a basic example and can be extended to support more complex interactions and data sources.
-* Modify the code and configuration files to fit your specific needs.
-* For detailed deployment instructions, refer to the provided Terraform files.
+End with an example of getting some data out of the system or using it for a little demo
 
-**Author:** [Your Name/Team Name]
+## Running the tests
 
-**License:** [License type]
+Explain how to run the automated tests for this system
 
-**Contributing:**
+### Break down into end to end tests
 
-We welcome contributions! Please see the CONTRIBUTING.md file for guidelines.
+Explain what these tests test and why
 
-**Changelog:**
+```
+Give an example
+```
 
-See the CHANGELOG.md file for details on project updates.
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
