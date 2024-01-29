@@ -30,8 +30,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 3. **Clone the Repository**: `git clone <repository-url>`
    ```
-git clone <repository-url>
-```
+   git clone <repository-url>
+   ```
 
 5. **Initialize Terraform**: Run `terraform init` in the project directory.
 
