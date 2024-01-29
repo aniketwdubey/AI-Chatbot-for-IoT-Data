@@ -1,4 +1,4 @@
-# AI Chatbot for IOT Data
+ # AI Chatbot for IOT Data
 
 This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S3 bucket. The infrastructure is defined using Terraform, and the project includes a Lambda function for chatbot fulfillment.
 
@@ -45,7 +45,20 @@ This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S
 
 8. **Create Intents**: Create intents using lex console.
 
+   Create 1st intent
+
       <img width="1440" alt="Screenshot 2024-01-29 at 9 11 10 PM" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/d352e48f-f0ea-474b-89ef-e25f61d9a07e">
+
+      <img width="1440" alt="Screenshot 2024-01-29 at 9 12 45 PM" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/138e18be-d884-465f-a708-30732f2d79cb">
+
+      <img width="1440" alt="Screenshot 2024-01-29 at 9 13 14 PM" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/d6909fa4-db97-482b-bc30-397653183469">
+
+      <img width="1440" alt="Screenshot 2024-01-29 at 9 13 29 PM" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/43bb130b-b733-4a19-86ce-9f482b96e144">
+
+      <img width="1440" alt="Screenshot 2024-01-29 at 9 13 55 PM" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/259667d5-087b-4f54-aa49-1630ce02e513">
+
+   Create 2nd intent
+
       
 10. **Test the Chatbot**: Interact with the chatbot using the Lex console or a chatbot client integrated with Lex.
 
