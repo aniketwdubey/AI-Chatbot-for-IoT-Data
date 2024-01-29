@@ -73,9 +73,11 @@ This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S
       <img width="1440" alt="2 5" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/279688f5-d984-4d29-abf9-451884acbf03">
 
 
+
 10. **Build the Chatbot**:
 
       <img width="1440" alt="build" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/efd64165-4d1d-4799-ab0b-b57dbcd8d967">
+
 
 
 10. **Test the Chatbot**: Interact with the chatbot using the Lex console or a chatbot client integrated with Lex.
