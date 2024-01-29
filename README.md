@@ -36,18 +36,17 @@ This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S
    terraform init
    ```
 
-7. **Deploy Infrastructure**: to deploy the AWS resources.
+6. **Deploy Infrastructure**: to deploy the AWS resources.
    ```
    terraform apply
    ```
 
-9. **Upload Data to S3**: Manually upload the CSV file (Energy Consumption Data.csv) to the S3 bucket created.
+7. **Upload Data to S3**: Manually upload the CSV file (Energy Consumption Data.csv) to the S3 bucket created.
 
-10. **Create Intents**: Create intents using lex console.
-   <img width="1440" alt="Screenshot 2024-01-29 at 9 11 10 PM" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/d352e48f-f0ea-474b-89ef-e25f61d9a07e">
-
-
-12. **Test the Chatbot**: Interact with the chatbot using the Lex console or a chatbot client integrated with Lex.
+8. **Create Intents**: Create intents using lex console.
+       <img width="1440" alt="Screenshot 2024-01-29 at 9 11 10 PM" src="https://github.com/aniketwdubey/AI-Chatbot-for-IoT-Data/assets/58386130/d352e48f-f0ea-474b-89ef-e25f61d9a07e">
+      
+9. **Test the Chatbot**: Interact with the chatbot using the Lex console or a chatbot client integrated with Lex.
 
 
 ## Notes
