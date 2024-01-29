@@ -1,6 +1,20 @@
-# Project Title
+# AI Chatbot for IOT Data
 
-One Paragraph of project description goes here
+This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S3 bucket. The infrastructure is defined using Terraform, and the project includes a Lambda function for chatbot fulfillment.
+
+## Project Structure
+
+- **bot.tf**: Defines the Lex V2 chatbot using the AWS provider for Terraform.
+  
+- **lambda_function.zip**: Contains the Lambda function code for chatbot fulfillment.
+
+- **main.tf**: Main Terraform configuration file specifying the AWS resources, including the Lambda function.
+
+- **provider.tf**: Terraform provider configuration for AWS.
+
+- **S3bucket.tf**: Terraform configuration for the S3 bucket to store the IoT data CSV file.
+
+- **Energy Consumption Data.csv**: Sample CSV file containing IoT energy consumption data (to be manually uploaded to the S3 bucket).
 
 ## Getting Started
 
