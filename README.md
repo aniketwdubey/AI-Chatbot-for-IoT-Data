@@ -4,7 +4,9 @@ This project deploys an AWS Lex V2 chatbot for analyzing IoT data stored in an S
 
 ## Project Structure
 
-- **bot.tf**: Defines the Lex V2 chatbot using the AWS provider for Terraform.
+- *bot.tf**: Defines the Lex V2 chatbot using the AWS provider for Terraform.
+
+- * `bot.tf`: Defines the Lex V2 bot configuration using Terraform.
   
 - **lambda_function.zip**: Contains the Lambda function code for chatbot fulfillment.
 
